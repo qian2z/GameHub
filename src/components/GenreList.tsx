@@ -5,6 +5,7 @@ import {
   List,
   ListItem,
   Spinner,
+  Text,
 } from "@chakra-ui/react";
 import useGenres, { Genre } from "../hooks/useGenres";
 import getCroppedImageUrl from "../services/image-url";
@@ -37,7 +38,7 @@ const GenreList = ({ onSelectGenre, selectedGenre }: Props) => {
               fontSize="lg"
               variant="link"
             >
-              {genre.name}
+              <Text isTruncated>{genre.name}</Text>
             </Button>
           </HStack>
         </ListItem>
