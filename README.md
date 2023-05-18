@@ -11,8 +11,8 @@ GameHub is a web application developed as part of Mr. Mosh Hamedani's React tuto
 
 - **Game Sorting:** The repository offers sorting options, enabling users to organize games based on factors such as name, released date, or rating.
 
-- **RAWG API Integration:** GameHub fetches video game data from the RAWG API, ensuring access to an extensive and up-to-date collection of games.
+- **RAWG API Integration:** GameHub fetches video game data from the [RAWG API](https://rawg.io/apidocs), ensuring access to an extensive and up-to-date collection of games.
 
 ## Acknowledgments
 - GameHub was developed based on Mr. Mosh Hamedani's React tutorial from [codewithmosh.com](https://codewithmosh.com/). Special thanks to Mr. Mosh Hamedani for his valuable teachings and guidance.
-- The integration of the [RAWG API](https://rawg.io/apidocs) allows GameHub to provide up-to-date video game data. Express gratitude to RAWG for providing the API used in this project.
+- The integration of the RAWG API allows GameHub to provide up-to-date video game data. Express gratitude to **RAWG** for providing the API used in this project.
