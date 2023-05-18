@@ -1,6 +1,6 @@
 # Introduction
 
-GameHub is a React project inspired by the teachings of Mosh Hamedani, the renowned founder of codewithmosh.com. 
+GameHub is a React project inspired by the teachings of Mr. Mosh Hamedani, the renowned founder of codewithmosh.com. 
 
 This repository serves as a platform for:
 - Discovering video games
