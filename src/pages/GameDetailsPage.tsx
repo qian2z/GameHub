@@ -1,5 +1,6 @@
 import { Heading, Spinner } from "@chakra-ui/react";
 import { useParams } from "react-router-dom";
+import AttributeGrid from "../components/AttributeGrid";
 import ExpandableText from "../components/ExpandableText";
 import useGame from "../hooks/useGame";
 
@@ -14,6 +15,7 @@ const GameDetailsPage = () => {
     <>
       <Heading marginBottom={3}>{game?.name}</Heading>
       <ExpandableText>{game?.description_raw}</ExpandableText>
+      <AttributeGrid game={game} />
     </>
   );
 };
